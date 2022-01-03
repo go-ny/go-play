@@ -1,0 +1,12 @@
+.idea/
+
+go.mod
+go.sum
+
+consts/
+
+.env
+
+gin.log
+
+varTest/
