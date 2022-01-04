@@ -1,6 +1,4 @@
-This should be a forum application, with surroudning functions.
-
-
+This should be a forum application, with surrounding functions.
 
 The application is based on the following tech stack:
 
