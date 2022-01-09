@@ -1,27 +1,3 @@
-This should be a forum application, with surrounding functions.
-
-The application is based on the following tech stack:
-
-I. backend
-
-1. Go (with gonic/gin framework: https://github.com/gin-gonic/gin)
-2. MongoDB 
-3. Redis (https://github.com/go-redis/redis)
-
-II. frontend
-
-1. React (and its bucket: using this: https://github.com/facebook/create-react-app)
-
-III. DevOps & Others:
-
-a. AWS: 
-
-1. S3 bucket
-2. EC2
-
-b. Docker
-
-
 Create your AWS account, AWS S3 bucket, and change all the keys sets in `.env` file.
 
 Create your MongoDB account, create a DB called `my_blogs`, and a collection in it called `blogs`, copy connection URI 
