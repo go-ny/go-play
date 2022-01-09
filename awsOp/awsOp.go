@@ -123,7 +123,8 @@ func S3UploadImageAPI(c *gin.Context) (string, error) {
 		fmt.Println("here's the error: ", err)
 		return "nil", err
 	}
-	//filepath = "https://" + MyBucket + "." + "s3-" + MyRegion + ".amazonaws.com/" + filename
+
+	// unsafe, modify it
 	filepath = "https://" + MyBucket + "." + "s3" + ".amazonaws.com/" + filename
 	c.JSON(http.StatusOK, gin.H{
 		"filepath":    filepath,

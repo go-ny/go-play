@@ -2,13 +2,12 @@ package main
 
 import (
 	"context"
+	"go-play/consts"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 	"log"
 	"time"
-
-	"go-play/consts"
 )
 
 func MongoConnection() (*mongo.Client, context.Context) {
